@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development npm run development",
+    "development": "mix",
+    "watch:dev": "NODE_ENV=development mix watch",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "nova:install": "npm --prefix='../../vendor/laravel/nova' ci"
+  },
+  "devDependencies": {
+    "@automattic/isolated-block-editor": "^2.28.0",
+    "@babel/preset-react": "^7.23.3",
+    "laravel-mix": "^6.0.41",
+    "postcss": "^8.3.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "nova:install": "npm --prefix='../../vendor/laravel/nova' ci"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.6",
+    "form-backend-validation": "^2.3.3",
+    "laravel-mix": "^6.0.41",
+    "postcss": "^8.3.11",
+    "resolve-url-loader": "^5.0.0",
+    "vue-loader": "^16.2.0"
+  },
+  "dependencies": {
+    "@mauricewijnia/block-editor": "^1.0.0-rc.19",
+    "@spatie/media-library-pro-styles": "^1.2.5",
+    "@spatie/media-library-pro-vue3": "^1.2.5",
+    "@spatie/media-library-pro-vue3-attachment": "^1.2.5",
+    "@spatie/media-library-pro-vue3-collection": "^1.2.5",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.4.0",
+    "@vue/babel-preset-jsx": "^1.4.0",
+    "@wordpress/api-fetch": "^6.6.0",
+    "@wordpress/base-styles": "^4.5.0",
+    "@wordpress/block-editor": "^9.1.0",
+    "@wordpress/block-library": "^7.6.0",
+    "@wordpress/blocks": "^11.8.0",
+    "@wordpress/components": "^19.11.0",
+    "@wordpress/data": "^6.9.0",
+    "@wordpress/element": "^4.7.0",
+    "@wordpress/format-library": "^3.7.0",
+    "@wordpress/hooks": "^3.9.0",
+    "@wordpress/icons": "^9.35.0",
+    "@wordpress/keyboard-shortcuts": "^3.7.0",
+    "@wordpress/server-side-render": "^3.7.0",
+    "lodash.debounce": "^4.0.8",
+    "uuid": "^8.3.2"
+  }
+}

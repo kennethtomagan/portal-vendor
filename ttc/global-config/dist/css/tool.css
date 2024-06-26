@@ -1,0 +1,9 @@
+/* Nova Tool CSS */
+
+.field-wrapper{
+
+}
+.field-wrapper .mt-1.w-full{
+     flex-grow: 1;
+}
+

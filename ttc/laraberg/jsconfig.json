@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "jsx": "preserve",
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["resources/*"]
+      }
+    },
+    "include": [
+      "resources/**/*.js",
+      "resources/**/*.jsx",
+      "resources/**/*.ts",
+      "resources/**/*.tsx",
+      "resources/**/*.vue"
+    ],
+    "exclude": ["node_modules"]
+  }
+  

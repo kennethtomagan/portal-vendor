@@ -1,0 +1,16 @@
+/* Nova Field CSS */
+//@import "laraberg.scss";
+@import "@spatie/media-library-pro-styles";
+@import "laraberg-css/laraberg.css";
+@import "editor-style.css";
+@import "wordpress-overrides";
+
+.block-editor-container {
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.block-editor__header{
+    z-index: 32;
+    background-color:#FFF;
+}
